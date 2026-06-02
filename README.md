@@ -1,6 +1,6 @@
 # WaterLand Plugin
 
-A Minecraft plugin that changes water physics to behave like land physics, allowing players to move through water with normal gravity and reduced drag.
+A Minecraft plugin that changes water physics to behave like land physics, allowing players to move through water with normal gravity and reduced drag. hi
 
 ## Features
 
