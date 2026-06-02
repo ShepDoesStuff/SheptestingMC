@@ -24,7 +24,7 @@ jobs:
       run: mvn clean package
     
     - name: Upload JAR artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: waterland-plugin
         path: target/waterland-1.0.jar
