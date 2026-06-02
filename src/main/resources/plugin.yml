@@ -1,0 +1,21 @@
+name: WaterLand
+version: 1.0
+main: me.fortis.waterland.WaterLandPlugin
+api-version: '1.21'
+description: Changes water physics to behave like land physics
+
+commands:
+  waterland:
+    description: Toggle land physics underwater.
+    usage: /waterland [on|off|toggle] or /waterland <player> [on|off]
+    aliases:
+      - wl
+
+permissions:
+  waterland.use:
+    description: Allows players to use the /waterland command on themselves
+    default: op
+
+  waterland.others:
+    description: Allows players to modify WaterLand for other players
+    default: op
